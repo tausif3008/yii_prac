@@ -1,0 +1,16 @@
+2014/03/26 11:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud".' in /var/www/yii_demo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii_demo/framework/web/CWebApplication.php(141): CWebApplication->runController('crud')
+#1 /var/www/yii_demo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii_prac/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_prac/index.php/crud/
+---
+2014/03/26 11:31:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "crud/index.php".' in /var/www/yii_demo/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/yii_demo/framework/web/CWebApplication.php(141): CWebApplication->runController('crud/index.php')
+#1 /var/www/yii_demo/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yii_prac/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_prac/index.php/crud/index.php
+---
